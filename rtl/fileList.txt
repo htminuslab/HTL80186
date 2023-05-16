@@ -1,0 +1,24 @@
+Note some filenames have changed in Version 1.6
+
+cpu86instr.vhd
+cpu86pack.vhd
+newbiufsm_fsm.vhd
+a_table.vhd
+d_table.vhd
+n_table.vhd
+r_table.vhd
+m_table.vhd
+formatter_rtl.vhd
+newbiushift.vhd
+rise_edge.vhd
+biuirq_rtl.vhd
+newbiu_rtl.vhd
+dataregfile_rtl.vhd
+segregfile_rtl.vhd
+divider_rtl_ser.vhd
+multiplier_rtl.vhd
+alu_rtl.vhd
+ipregister_rtl.vhd
+datapath_rtl.vhd
+proc_rtl.vhd
+cpu186_rtl.vhd
