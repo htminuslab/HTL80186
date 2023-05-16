@@ -1,7 +1,7 @@
 # HTL80186: 80186/88 Compatible microprocessor in VHDL
 
 
-<img src="HTL80186.png" alt="HTL80186 Block Diagram"/>
+<img src="HTL80186.PNG" alt="HTL80186 Block Diagram"/>
 
 
 # 1. Introduction
@@ -144,7 +144,7 @@ For the 8bits 80188 the **bin2mem.exe** (see bin directory) can be used. This pr
 ### 4.1 FreeDOS Demo
 
 The Modelsim\FreeDOS directory contains a demo that shows the HTL80186 booting FreeDOS under Modelsim.
-<img align="right" src="FreeDOS.png" alt="FreeDOS Logo"/>
+<img align="right" src="FreeDOS.PNG" alt="FreeDOS Logo"/>
 The simulation needs to run for approximately 2.3 seconds in order to boot FreeDOS and to process some commands contained in the AUTOEXEC.BAT file. Under Questa Core with VOPT enabled and no logging of signals (nolog –r \*) this takes about 15 minutes on a 3.6GHz PC.
 
 ### 4.1.1 How does the demo work?
@@ -243,7 +243,7 @@ An example synthesis script for the *Gowin GW2A-18C* is provided.
 To run the synthesis, edit the **run.bat** file and correct the path to the Gowin command shell *(<install_path>\IDE\bin\gw_sh.exe)*. 
 Next open a Windows CMD prompt, navigate to the Synthesis directory and execute **run.bat**.
 
-<img align="right" src="tangprimer20k.png" alt="Sipeed Tang Primer 20K Development Board">
+<img align="right" src="TangPrimer20K.PNG" alt="Sipeed Tang Primer 20K Development Board">
 
 ```
 3. Resource Usage Summary
