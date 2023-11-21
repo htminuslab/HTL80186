@@ -1,8 +1,8 @@
 # HTL80186: 80186/88 Compatible microprocessor in VHDL
 
-
+<p align="center">
 <img src="HTL80186.PNG" alt="HTL80186 Block Diagram"/>
-
+</p>
 
 # 1. Introduction
 
@@ -10,7 +10,18 @@ The HTL80186 is an instruction set compatible 80186/80188 microprocessor. The pr
 
 Note: the HTL80186 core does not include any of the original 80186/80188 peripherals, it is a micro processor core like the 8086/8088.
 
-For a bus compatible RTC see [github page](https://github.com/htminuslab/HTL146818).
+Compatible peripherals can be found here:
+
+146818 Real Time clock [HTL146818](https://github.com/htminuslab/HTL146818).
+
+8259 Programmable Interrupt Controller [HTL8259](https://github.com/htminuslab/HTL8259).
+
+8254 Programmable Interval Timer [HTL8254](https://github.com/htminuslab/HTL8254).
+
+8255 Programmable Parallel Interface [HTL8255](https://github.com/htminuslab/HTL8255).
+
+8237 Direct Memory Controller [HTL8237](https://github.com/htminuslab/HTL8237).
+
 
 # 2. Directory Structure
 
@@ -230,7 +241,7 @@ VSIM 3> exit
 # End time: 08:49:49 on May 16,2023, Elapsed time: 0:18:48
 # Errors: 0, Warnings: 0
 ```
-The copyright notice can be ignored.
+The BIOS186 copyright notice can be ignored.
 
 Please note that this is just a demo, apart from displaying the boot process, loading of FreeDOS and any executing any task/programs listed in the autoexec.bat file there is not much else you can do with it. There is no console input although there is no reason why this can't be added (it will be slow....). 
 
