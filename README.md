@@ -96,7 +96,7 @@ A further 5 files are provided for the FreeDOS demo.
 
 The HTL80186 is written in synthesisable VHDL and as such can be simulated by any simulation tools.
 
-An example simulation script is provided for Mentor Graphics' Modelsim. To run the simulation navigate to the Modelsim directory and execute the **run.bat** file from within a DOSbox/CMD shell. Alternative, execute the **run.do** file from within Modelsim.
+An example simulation script is provided for Mentor Graphics' Modelsim/Questa. To run the simulation navigate to the Modelsim directory and execute the **run.bat** file from within a DOSbox/CMD shell. Alternative, execute the **run.do** file from within Modelsim/Questa.
 
 The output in both cases should be similar to the text shown below.
 ```
@@ -154,9 +154,11 @@ For the 8bits 80188 the **bin2mem.exe** (see bin directory) can be used. This pr
 
 ### 4.1 FreeDOS Demo
 
-The Modelsim\FreeDOS directory contains a demo that shows the HTL80186 booting FreeDOS under Modelsim.
+The Modelsim\FreeDOS directory contains a demo that shows the HTL80186 booting FreeDOS under Modelsim or Questa.
 <img align="right" src="FreeDOS.PNG" alt="FreeDOS Logo"/>
 The simulation needs to run for approximately 2.3 seconds in order to boot FreeDOS and to process some commands contained in the AUTOEXEC.BAT file. Under Questa Core with VOPT enabled and no logging of signals (nolog –r \*) this takes about 15 minutes on a 3.6GHz PC.
+
+The FreeDOS demo also works great with Nick Gasson's excellent open source [nvc simulator](https://github.com/nickg/nvc). The run under nvc navigate to the nvc directory and execute ./run.bat, the output is the same as described in the next section.
 
 ### 4.1.1 How does the demo work?
 
